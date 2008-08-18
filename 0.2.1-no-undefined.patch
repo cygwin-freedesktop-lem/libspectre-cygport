@@ -1,0 +1,8 @@
+--- origsrc/libspectre-0.2.1/libspectre/Makefile.am	2007-12-09 11:18:09.000000000 -0600
++++ src/libspectre-0.2.1/libspectre/Makefile.am	2008-08-18 01:50:27.098914500 -0500
+@@ -50,4 +50,4 @@
+ 	$(gv_sources)
+ 
+ libspectre_la_LIBADD = $(LIB_GS)
+-libspectre_la_LDFLAGS = -version-info @VERSION_INFO@
++libspectre_la_LDFLAGS = -version-info @VERSION_INFO@ -no-undefined
