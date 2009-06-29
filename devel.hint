@@ -1,5 +1,5 @@
 category: Graphics
-requires: cygwin libgs-devel libspectre1
+requires: libgs-devel libspectre1
 external-source: libspectre
 sdesc: "Postscript rendering library (devel)"
 ldesc: "libspectre is a small library for rendering Postscript documents.

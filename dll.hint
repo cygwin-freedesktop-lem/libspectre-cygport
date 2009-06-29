@@ -1,5 +1,5 @@
 category: Graphics
-requires: cygwin libgcc1 libgs8
+requires: libgcc1 libgs8
 external-source: libspectre
 sdesc: "Postscript rendering library (runtime)"
 ldesc: "libspectre is a small library for rendering Postscript documents.
