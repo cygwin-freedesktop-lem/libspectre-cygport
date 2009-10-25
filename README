@@ -5,19 +5,19 @@ It provides a convenient easy to use API for handling and rendering
 Postscript documents.
 
 Runtime requirements:
-  cygwin-1.7.0-44
-  libgcc1-4.3.2-2
+  cygwin-1.7.0-62
+  libgcc1-4.3.4-1
   libgs8-8.63-2
 
 Build requirements:
 (besides corresponding -devel packages)
   autoconf2.5-2.63-10
-  automake1.10-1.10.1-10
-  binutils-20080624-2
-  cygport-0.9.6-1
-  gawk-3.1.6-2
-  gcc4-core-4.3.2-2
-  libtool-2.2.6a-2
+  automake1.10-1.10.2-10
+  binutils-2.19.51-1
+  cygport-0.9.10-1
+  gawk-3.1.7-1
+  gcc4-core-4.3.4-1
+  libtool-2.2.7a-14
   make-3.81-2
   sed-4.1.5-2
 
@@ -30,46 +30,23 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack libspectre-0.2.2-X-src.tar.bz2
+  unpack libspectre-0.2.3-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./libspectre-0.2.2-X.cygport all
+  cygport ./libspectre-0.2.3-X.cygport all
 
 This will create:
-  /usr/src/libspectre-0.2.2-X-src.tar.bz2
-  /usr/src/libspectre-devel-0.2.2-X.tar.bz2
-  /usr/src/libspectre1-0.2.2-X.tar.bz2
+  /usr/src/libspectre-0.2.3-X-src.tar.bz2
+  /usr/src/libspectre-devel-0.2.3-X.tar.bz2
+  /usr/src/libspectre1-0.2.3-X.tar.bz2
 
 -------------------------------------------
 
-Files included in the binary packages:
-
-(libspectre1)
-  /usr/bin/cygspectre-1.dll
-  /usr/share/doc/libspectre/AUTHORS
-  /usr/share/doc/libspectre/COPYING
-  /usr/share/doc/libspectre/ChangeLog
-  /usr/share/doc/libspectre/NEWS
-  /usr/share/doc/libspectre/README
-  /usr/share/doc/libspectre/TODO
-
-(libspectre-devel)
-  /usr/include/libspectre/spectre-document.h
-  /usr/include/libspectre/spectre-exporter.h
-  /usr/include/libspectre/spectre-macros.h
-  /usr/include/libspectre/spectre-page.h
-  /usr/include/libspectre/spectre-render-context.h
-  /usr/include/libspectre/spectre-status.h
-  /usr/include/libspectre/spectre-version.h
-  /usr/include/libspectre/spectre.h
-  /usr/lib/libspectre.dll.a
-  /usr/lib/libspectre.la
-  /usr/lib/pkgconfig/libspectre.pc
-
-------------------
-
 Port Notes:
+
+----- version 0.2.3-1 -----
+Version bump.
 
 ----- version 0.2.2-10 -----
 Initial release for Cygwin 1.7.
