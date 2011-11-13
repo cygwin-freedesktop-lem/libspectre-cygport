@@ -1,9 +1,8 @@
 DESCRIPTION="Postscript rendering library"
-HOMEPAGE="http://libspectre.freedesktop.org/wiki/"
+HOMEPAGE="http://libspectre.freedesktop.org/"
 SRC_URI="http://libspectre.freedesktop.org/releases/${P}.tar.gz"
 
-PKG_NAMES="${PN} ${PN}1 ${PN}-devel"
-PKG_HINTS="src dll devel"
+PKG_NAMES="${PN}1 ${PN}-devel"
 libspectre1_CONTENTS="usr/bin/cygspectre-1.dll usr/share/doc/"
 libspectre_devel_CONTENTS="usr/include/ usr/lib/"
 
