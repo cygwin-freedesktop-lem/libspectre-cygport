@@ -1,5 +1,0 @@
-category: Graphics
-sdesc: "Postscript rendering library (source)"
-ldesc: "libspectre is a small library for rendering Postscript documents.
-It provides a convenient easy to use API for handling and rendering
-Postscript documents."

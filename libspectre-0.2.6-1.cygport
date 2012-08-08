@@ -1,9 +1,0 @@
-DESCRIPTION="Postscript rendering library"
-HOMEPAGE="http://libspectre.freedesktop.org/"
-SRC_URI="http://libspectre.freedesktop.org/releases/${P}.tar.gz"
-
-PKG_NAMES="${PN}1 ${PN}-devel"
-libspectre1_CONTENTS="usr/bin/cygspectre-1.dll usr/share/doc/"
-libspectre_devel_CONTENTS="usr/include/ usr/lib/"
-
-CYGCONF_ARGS="--disable-static"
