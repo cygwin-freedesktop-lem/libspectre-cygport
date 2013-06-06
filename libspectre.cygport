@@ -1,12 +1,15 @@
+NAME="libspectre"
+VERSION=0.2.7
+RELEASE=1
 CATEGORY="Graphics"
 SUMMARY="Postscript rendering library"
 DESCRIPTION="libspectre is a small library for rendering Postscript documents.
 It provides a convenient easy to use API for handling and rendering
 Postscript documents."
 HOMEPAGE="http://libspectre.freedesktop.org/"
-SRC_URI="http://libspectre.freedesktop.org/releases/${P}.tar.gz"
+SRC_URI="http://libspectre.freedesktop.org/releases/libspectre-${VERSION}.tar.gz"
 
-PKG_NAMES="${PN}1 ${PN}-devel"
+PKG_NAMES="${NAME}1 ${NAME}-devel"
 libspectre1_SUMMARY="${SUMMARY} (runtime)"
 libspectre1_CONTENTS="usr/bin/cygspectre-1.dll usr/share/doc/"
 libspectre_devel_SUMMARY="${SUMMARY} (development)"
