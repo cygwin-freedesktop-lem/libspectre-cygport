@@ -1,0 +1,8 @@
+category: Graphics
+requires: libspectre1 pkg-config 
+sdesc: "Postscript rendering library (development)"
+ldesc: "libspectre is a small library for rendering Postscript documents.
+It provides a convenient easy to use API for handling and rendering
+Postscript documents."
+external-source: libspectre
+test:

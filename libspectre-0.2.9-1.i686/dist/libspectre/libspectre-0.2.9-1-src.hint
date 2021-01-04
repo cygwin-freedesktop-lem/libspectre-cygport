@@ -1,0 +1,9 @@
+category: Graphics
+build-depends: cygport   pkg-config  libgs-devel
+sdesc: "Postscript rendering library"
+ldesc: "libspectre is a small library for rendering Postscript documents.
+It provides a convenient easy to use API for handling and rendering
+Postscript documents."
+skip:
+test:
+homepage: https://www.freedesktop.org/wiki/Software/libspectre/
