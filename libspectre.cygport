@@ -1,6 +1,6 @@
 NAME="libspectre"
 VERSION=0.2.10
-RELEASE=1
+RELEASE=2
 CATEGORY="Graphics"
 SUMMARY="Postscript rendering library"
 DESCRIPTION="libspectre is a small library for rendering Postscript documents.
@@ -16,6 +16,10 @@ freedesktop_setup "${NAME}" "${VERSION}"
 
 SRC_URI+="
   freedesktop.sub.experimental
+"
+
+PATCH_URI+="
+  https://gitlab.freedesktop.org/libspectre/libspectre/-/commit/66dc111212930fa7f936ea3ed69a566febef5f4c.patch
 "
 
 BUILD_REQUIRES="\
