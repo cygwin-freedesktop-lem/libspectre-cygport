@@ -1,12 +1,16 @@
 NAME="libspectre"
-VERSION=0.2.10
-RELEASE=2
+VERSION=0.2.11
+RELEASE=1
 CATEGORY="Graphics"
 SUMMARY="Postscript rendering library"
 DESCRIPTION="libspectre is a small library for rendering Postscript documents.
 It provides a convenient easy to use API for handling and rendering
 Postscript documents."
 HOMEPAGE="https://www.freedesktop.org/wiki/Software/libspectre/"
+
+LICENSE="GPL-2.0-or-later"
+# cf. https://www.cygwin.com/packaging-hint-files.html#pvr-src.hint
+#     https://spdx.org/licenses/GPL-2.0-or-later.html
 
 source freedesktop.sub.experimental
 
@@ -19,7 +23,6 @@ SRC_URI+="
 "
 
 PATCH_URI+="
-  https://gitlab.freedesktop.org/libspectre/libspectre/-/commit/66dc111212930fa7f936ea3ed69a566febef5f4c.patch
 "
 
 BUILD_REQUIRES="\
